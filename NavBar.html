@@ -1,0 +1,73 @@
+
+<style>
+.navbar {
+   	margin-bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    border: 0;
+    font-size: 22px !important;
+    letter-spacing: 6px;
+    opacity: 0.9;
+    padding: 8px;
+    margin:2px;
+    border-top-color: red;
+    border-top-width: 2px;
+  }
+  .navbar-nav li{
+  background-color: #29292c !important;
+  padding: 4px;
+  margin: 4px;
+  }
+  .navbar-nav li a:hover {
+    color: silver;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0.9;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+
+  .btn{
+   background-color: rgba(0,0,0,0.5);
+   font-size: 22px;
+  opacity: 0.9;
+  margin:4px;
+  padding:2px;
+  color: white;
+  }
+
+</style>
+
+
+<nav class="navbar navbar-default  navbar-responsive">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                               
+      </button>
+       <img src="images/logo (3).ico">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+      
+    <div class="collapse navbar-collapse navbar-right " id="myNavbar">
+      <ul class="nav navbar-nav  navbar-responsive nav-right">
+        <li><button class="btn"><a href="#Home">Home</a></button></li>
+  
+        <select id="About">
+        		<option value="AboutCIS"><button onClick="AboutCIS()">About CIS</button></option>
+        		<option value="History">History</option>
+        		<option value="VissionandMission"><button onClick="window.location='VissionAndMission.jsp'">Vission and Mission</a></option>
+        		<option value="Rules and Regulations">Rules and Regulations</option>
+        	</select>
+        <li><button class="btn" value="#OurSections">Our Sections</button></li>
+        <li><button class="btn"><a href="#Case">Report a Case</a></button></li>
+        <li><button class="btn" onClick="window.location='HumanRights.jsp'">Human Rights</button></li>
+		<li><button class="btn"><a href="#ContactUs">Contact Us</a></button></li>
+       </ul>
+       </div>
+       </div>
+       </nav> 
